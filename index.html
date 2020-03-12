@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Book your travel</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <h1>Book your travel</h1>
+
+    <form action="#">
+        <!-- country -->
+        <section>
+            <label for="country">What's your dream country to live in?</label>
+            <input type="text" name="country" id="country">
+            <p id="countryError"></p>
+        </section>
+
+        <!-- snake -->
+        <section>
+            <label for="snake">Do you mind being bitten by snakes?</label>
+            <select name="snake" id="snake">
+                <option value="yes" selected="selected">Yes</option>
+                <option value="no">No</option>
+                <option value="love_to">Love to</option>
+            </select>
+            <p id="snakeError"></p>
+        </section>
+
+        <!-- spider -->
+        <section>
+            <label for="spider">How many eyes do spiders have?</label>
+            <input type="number" name="spider" id="spider" size="5">
+            <p id="spiderError"></p>
+        </section>
+
+        <!-- scorpion -->
+        <!-- <section>
+            <label for="">Would you eat scorpions?</label>
+            <div class="scorpionDiv">
+                <input type="radio" name="scorpion" value="yes" id="scorpionYes" required>
+                <label for="scorpionYes"> Yes</label>
+            </div>
+            <div class="scorpionDiv">
+                <input type="radio" name="scorpion" value="no" id="scorpionNo">
+                <label for="scorpionNo"> No</label>
+            </div>
+            <p id="scorpionError"></p>
+        </section> -->
+
+        <!-- favorite animal -->
+        <section>
+            <label for="animal">Favorite animal?</label>
+            <input type="text" name="animal" id="animal">
+            <p id="animalError"></p>
+        </section>
+
+        <!-- new zealand -->
+        <section>
+            <span>New Zealand is </span><input size="5" type="text" name="nz" id="nz"><span> man's
+                Australia.</span>
+            <p id="nzError"></p>
+        </section>
+
+        <!-- riddle -->
+        <section id="riddleSection">
+            <label for="riddle">worthy you must be, it is found in the sea. <br>
+                answer this final riddle, it lures you in, it fiddles...</label>
+            <input type="text" name="riddle" id="riddle" placeholder="Optional">
+            <p id="riddleError"></p>
+        </section>
+
+        <!-- submit button -->
+        <section>
+            <input type="submit" value="Submit" id="formSubmit">
+        </section>
+    </form>
+
+    <h2 style="display: none;"></h2>
+
+    <audio src="audio/anthem.mp3" id="theAnthem"></audio>
+
+    <img src="img/kangaroo.png" alt="" style="display: none;" id="kang1">
+    <img src="img/kangaroo.png" alt="" style="display: none;" id="kang2">
+    <img src="img/kangaroo.png" alt="" style="display: none;" id="kang3">
+    <img src="img/kangaroo.png" alt="" style="display: none;" id="kang4">
+    <img src="img/kangaroo.png" alt="" style="display: none;" id="kang5">
+
+
+    <script src="js/TweenMax.min.js"></script>
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>

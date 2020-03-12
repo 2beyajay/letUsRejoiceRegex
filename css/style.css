@@ -1,0 +1,150 @@
+@font-face {
+    font-family: headingFont;
+    src: url(../fonts/ZhiMangXing-Regular.ttf);
+}
+
+@font-face {
+    font-family: bodyFont;
+    src: url(../fonts/Niramit-Regular.ttf);
+}
+
+body {
+    background-image: url(../img/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+h1 {
+    text-align: center;
+    font-family: headingFont;
+    font-size: 4em;
+    padding: 10px;
+    margin: 20px 0;
+    color: white;
+    /* text-shadow: #333333 2px 2px; */
+
+    -webkit-text-stroke-width: 1px;
+    -moz-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+
+
+}
+
+h2{
+    text-align: center;
+}
+
+form {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.75);
+    font-family: bodyFont;
+    padding: 25px 0;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: none;
+    /* justify-content: center; */
+}
+
+form * {
+    margin: 7px 0;
+    font-family: bodyFont;
+}
+
+fieldset * {
+    margin: 7px 0;
+    font-family: bodyFont;
+}
+
+label {
+    font-size: 1.15em;
+}
+
+input[type=text],
+input[type=number] {
+    padding: 5px 10px;
+    box-sizing: border-box;
+}
+
+input {
+    border-radius: 10px;
+    border: rgb(0, 98, 49) 2px solid;
+}
+
+input[type=submit] {
+    background-color: steelblue;
+    color: white;
+    font-size: 1.5em;
+    border: none;
+    padding: 5px 100px;
+}
+
+input[type=radio] {
+    font-size: 1.5em;
+    margin: 0 15px;
+}
+
+.scorpionDiv {
+    padding: 10px;
+    display: inline;
+}
+
+select {
+    border-radius: 10px;
+    border: rgb(0, 98, 49) 2px solid;
+}
+
+#spider {
+    width: 75px;
+}
+
+p {
+    color: red;
+    display: inline;
+    font-size: 1.2em;
+    font-weight: 900;
+    margin-left: 20px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+#kang1{
+    position: absolute;
+    left: -300px;
+    top: 0px;
+    transform: scaleX(-1);
+}
+
+#kang2{
+    position: absolute;
+    left: 100vw;
+    top: 175px;
+}
+
+#kang3{
+    position: absolute;
+    left: -300px;
+    top: 300px;
+    transform: scaleX(-1);
+}
+
+#kang4{
+    position: absolute;
+    left: 100vw;
+    top: 475px;
+}
+
+#kang5{
+    position: absolute;
+    left: -300px;
+    top: 600px;
+    transform: scaleX(-1);
+}
